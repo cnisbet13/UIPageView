@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960BF7261BF9B0A000524F63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960BF7251BF9B0A000524F63 /* AppDelegate.swift */; };
+		960BF7281BF9B0A000524F63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960BF7271BF9B0A000524F63 /* ViewController.swift */; };
+		960BF72B1BF9B0A000524F63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960BF7291BF9B0A000524F63 /* Main.storyboard */; };
+		960BF72D1BF9B0A000524F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960BF72C1BF9B0A000524F63 /* Assets.xcassets */; };
+		960BF7301BF9B0A000524F63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960BF72E1BF9B0A000524F63 /* LaunchScreen.storyboard */; };
+		960BF73B1BF9B0A000524F63 /* HipsterPageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960BF73A1BF9B0A000524F63 /* HipsterPageViewTests.swift */; };
+		960BF7461BF9B0A000524F63 /* HipsterPageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960BF7451BF9B0A000524F63 /* HipsterPageViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		960BF7371BF9B0A000524F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960BF71A1BF9B0A000524F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960BF7211BF9B0A000524F63;
+			remoteInfo = HipsterPageView;
+		};
+		960BF7421BF9B0A000524F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960BF71A1BF9B0A000524F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960BF7211BF9B0A000524F63;
+			remoteInfo = HipsterPageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		960BF7221BF9B0A000524F63 /* HipsterPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HipsterPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		960BF7251BF9B0A000524F63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		960BF7271BF9B0A000524F63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		960BF72A1BF9B0A000524F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		960BF72C1BF9B0A000524F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		960BF72F1BF9B0A000524F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		960BF7311BF9B0A000524F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960BF7361BF9B0A000524F63 /* HipsterPageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HipsterPageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960BF73A1BF9B0A000524F63 /* HipsterPageViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HipsterPageViewTests.swift; sourceTree = "<group>"; };
+		960BF73C1BF9B0A000524F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960BF7411BF9B0A000524F63 /* HipsterPageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HipsterPageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960BF7451BF9B0A000524F63 /* HipsterPageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HipsterPageViewUITests.swift; sourceTree = "<group>"; };
+		960BF7471BF9B0A000524F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		960BF71F1BF9B0A000524F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960BF7331BF9B0A000524F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960BF73E1BF9B0A000524F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		960BF7191BF9B0A000524F63 = {
+			isa = PBXGroup;
+			children = (
+				960BF7241BF9B0A000524F63 /* HipsterPageView */,
+				960BF7391BF9B0A000524F63 /* HipsterPageViewTests */,
+				960BF7441BF9B0A000524F63 /* HipsterPageViewUITests */,
+				960BF7231BF9B0A000524F63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		960BF7231BF9B0A000524F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				960BF7221BF9B0A000524F63 /* HipsterPageView.app */,
+				960BF7361BF9B0A000524F63 /* HipsterPageViewTests.xctest */,
+				960BF7411BF9B0A000524F63 /* HipsterPageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		960BF7241BF9B0A000524F63 /* HipsterPageView */ = {
+			isa = PBXGroup;
+			children = (
+				960BF7251BF9B0A000524F63 /* AppDelegate.swift */,
+				960BF7271BF9B0A000524F63 /* ViewController.swift */,
+				960BF7291BF9B0A000524F63 /* Main.storyboard */,
+				960BF72C1BF9B0A000524F63 /* Assets.xcassets */,
+				960BF72E1BF9B0A000524F63 /* LaunchScreen.storyboard */,
+				960BF7311BF9B0A000524F63 /* Info.plist */,
+			);
+			path = HipsterPageView;
+			sourceTree = "<group>";
+		};
+		960BF7391BF9B0A000524F63 /* HipsterPageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				960BF73A1BF9B0A000524F63 /* HipsterPageViewTests.swift */,
+				960BF73C1BF9B0A000524F63 /* Info.plist */,
+			);
+			path = HipsterPageViewTests;
+			sourceTree = "<group>";
+		};
+		960BF7441BF9B0A000524F63 /* HipsterPageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				960BF7451BF9B0A000524F63 /* HipsterPageViewUITests.swift */,
+				960BF7471BF9B0A000524F63 /* Info.plist */,
+			);
+			path = HipsterPageViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		960BF7211BF9B0A000524F63 /* HipsterPageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960BF74A1BF9B0A000524F63 /* Build configuration list for PBXNativeTarget "HipsterPageView" */;
+			buildPhases = (
+				960BF71E1BF9B0A000524F63 /* Sources */,
+				960BF71F1BF9B0A000524F63 /* Frameworks */,
+				960BF7201BF9B0A000524F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HipsterPageView;
+			productName = HipsterPageView;
+			productReference = 960BF7221BF9B0A000524F63 /* HipsterPageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		960BF7351BF9B0A000524F63 /* HipsterPageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960BF74D1BF9B0A000524F63 /* Build configuration list for PBXNativeTarget "HipsterPageViewTests" */;
+			buildPhases = (
+				960BF7321BF9B0A000524F63 /* Sources */,
+				960BF7331BF9B0A000524F63 /* Frameworks */,
+				960BF7341BF9B0A000524F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960BF7381BF9B0A000524F63 /* PBXTargetDependency */,
+			);
+			name = HipsterPageViewTests;
+			productName = HipsterPageViewTests;
+			productReference = 960BF7361BF9B0A000524F63 /* HipsterPageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		960BF7401BF9B0A000524F63 /* HipsterPageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960BF7501BF9B0A000524F63 /* Build configuration list for PBXNativeTarget "HipsterPageViewUITests" */;
+			buildPhases = (
+				960BF73D1BF9B0A000524F63 /* Sources */,
+				960BF73E1BF9B0A000524F63 /* Frameworks */,
+				960BF73F1BF9B0A000524F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960BF7431BF9B0A000524F63 /* PBXTargetDependency */,
+			);
+			name = HipsterPageViewUITests;
+			productName = HipsterPageViewUITests;
+			productReference = 960BF7411BF9B0A000524F63 /* HipsterPageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		960BF71A1BF9B0A000524F63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Lone Pine Creative";
+				TargetAttributes = {
+					960BF7211BF9B0A000524F63 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					960BF7351BF9B0A000524F63 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 960BF7211BF9B0A000524F63;
+					};
+					960BF7401BF9B0A000524F63 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 960BF7211BF9B0A000524F63;
+					};
+				};
+			};
+			buildConfigurationList = 960BF71D1BF9B0A000524F63 /* Build configuration list for PBXProject "HipsterPageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 960BF7191BF9B0A000524F63;
+			productRefGroup = 960BF7231BF9B0A000524F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				960BF7211BF9B0A000524F63 /* HipsterPageView */,
+				960BF7351BF9B0A000524F63 /* HipsterPageViewTests */,
+				960BF7401BF9B0A000524F63 /* HipsterPageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		960BF7201BF9B0A000524F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960BF7301BF9B0A000524F63 /* LaunchScreen.storyboard in Resources */,
+				960BF72D1BF9B0A000524F63 /* Assets.xcassets in Resources */,
+				960BF72B1BF9B0A000524F63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960BF7341BF9B0A000524F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960BF73F1BF9B0A000524F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		960BF71E1BF9B0A000524F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960BF7281BF9B0A000524F63 /* ViewController.swift in Sources */,
+				960BF7261BF9B0A000524F63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960BF7321BF9B0A000524F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960BF73B1BF9B0A000524F63 /* HipsterPageViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960BF73D1BF9B0A000524F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960BF7461BF9B0A000524F63 /* HipsterPageViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		960BF7381BF9B0A000524F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960BF7211BF9B0A000524F63 /* HipsterPageView */;
+			targetProxy = 960BF7371BF9B0A000524F63 /* PBXContainerItemProxy */;
+		};
+		960BF7431BF9B0A000524F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960BF7211BF9B0A000524F63 /* HipsterPageView */;
+			targetProxy = 960BF7421BF9B0A000524F63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		960BF7291BF9B0A000524F63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960BF72A1BF9B0A000524F63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		960BF72E1BF9B0A000524F63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960BF72F1BF9B0A000524F63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		960BF7481BF9B0A000524F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		960BF7491BF9B0A000524F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		960BF74B1BF9B0A000524F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HipsterPageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LonePineC.HipsterPageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		960BF74C1BF9B0A000524F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HipsterPageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LonePineC.HipsterPageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		960BF74E1BF9B0A000524F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HipsterPageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LonePineC.HipsterPageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HipsterPageView.app/HipsterPageView";
+			};
+			name = Debug;
+		};
+		960BF74F1BF9B0A000524F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HipsterPageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LonePineC.HipsterPageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HipsterPageView.app/HipsterPageView";
+			};
+			name = Release;
+		};
+		960BF7511BF9B0A000524F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HipsterPageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LonePineC.HipsterPageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HipsterPageView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		960BF7521BF9B0A000524F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HipsterPageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LonePineC.HipsterPageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HipsterPageView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		960BF71D1BF9B0A000524F63 /* Build configuration list for PBXProject "HipsterPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960BF7481BF9B0A000524F63 /* Debug */,
+				960BF7491BF9B0A000524F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960BF74A1BF9B0A000524F63 /* Build configuration list for PBXNativeTarget "HipsterPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960BF74B1BF9B0A000524F63 /* Debug */,
+				960BF74C1BF9B0A000524F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		960BF74D1BF9B0A000524F63 /* Build configuration list for PBXNativeTarget "HipsterPageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960BF74E1BF9B0A000524F63 /* Debug */,
+				960BF74F1BF9B0A000524F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		960BF7501BF9B0A000524F63 /* Build configuration list for PBXNativeTarget "HipsterPageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960BF7511BF9B0A000524F63 /* Debug */,
+				960BF7521BF9B0A000524F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 960BF71A1BF9B0A000524F63 /* Project object */;
+}
